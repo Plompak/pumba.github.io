@@ -1,0 +1,84 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Gabriola", serif;
+  }
+  
+  .page-header {
+    background-color: #b6cb15;
+    color: #faede9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page-main {
+    padding: 20px;
+  }
+  
+  .page-footer {
+    background-color: #2b2906;
+    color: #faede9;
+    padding:30px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .title {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  .accent {
+    color: #ffffff;
+  }
+  
+  .quote {
+    margin: 20px 0 0;
+    font-size: 35px;
+  }
+  
+  .quote cite {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  
+  .days-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .day {
+    background-color: #fceea9;
+    padding: 20px;
+    border: #b7ff0a 3px solid;
+    border-radius: 10px;
+  }
+
+  
+  .day h2 {
+    margin-top: 0;
+    font-size: 45px;
+    color:#0b0000;
+  }
+
+ p { 
+    color: #140e0e;
+    font-size: 35px;
+  }
+  
+
+  .day b {
+    float: left;
+    margin-right: 20px;
+    font-size: 45px;
+  }
